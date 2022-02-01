@@ -1,7 +1,12 @@
+@import "./Partials/colors";
+
+
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1rem;
     font-weight:300;
+    color: $white;
 }
 
 .container {
@@ -10,6 +15,7 @@ body {
     overflow: hidden;
     max-width: 720px;
     margin: 3.125rem auto 0 auto;
+    
 }
 
 .text-center {
@@ -21,20 +27,21 @@ body {
 }
 
 #survey-form {
-    
-  text-align: center;
+    text-align: center;
+    background-color: $lightblack;
 }
 
 .form-group {
-    
+    // width: 100%;
     margin: 0.25rem;
     padding: 0.2rem;
-    text-align: center;
+    text-align: left;
     align-items: center;
+    
 }
 
 .form-control {
-    
+    width: 100%;
     text-align: center;
     align-content: center;
 }
@@ -59,9 +66,13 @@ label {
 }
 
 #suggestions {
-    // text-align: left;
+    width: 100%;
     min-height: 125px;
     min-width: 500px;
     padding: 0.5 rem;
     resize: vertical;
+}
+
+#submit {
+    width: 100%;
 }
