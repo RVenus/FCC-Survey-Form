@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight:300;
+}
+
+.container {
+    display: grid;
+    align-content: center;
+    position: absolute;
+    overflow: hidden;
+}
+
+.header {
+    padding: 0 0.5rem;
+}
+
+#survey-form {
+   
+    box-sizing: border-box;
+}
+
+label {
+    display: flex;
+    align-items: center;
+    font-size: 1.125rem;
+    margin-bottom: 0.5rem;
+}
