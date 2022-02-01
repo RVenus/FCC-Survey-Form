@@ -5,10 +5,14 @@ body {
 }
 
 .container {
-  display: grid;
   align-content: center;
-  position: absolute;
   overflow: hidden;
+  max-width: 720px;
+  margin: 3.125rem auto 0 auto;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .header {
@@ -16,7 +20,29 @@ body {
 }
 
 #survey-form {
-  box-sizing: border-box;
+  text-align: center;
+}
+
+.form-group {
+  margin: 0.25rem;
+  padding: 0.2rem;
+  text-align: center;
+  align-items: center;
+}
+
+.form-control {
+  text-align: center;
+  align-content: center;
+}
+
+.input-radio {
+  align-content: center;
+  text-align: center;
+}
+
+.input-checkbox {
+  align-items: center;
+  text-align: center;
 }
 
 label {
@@ -24,4 +50,11 @@ label {
   align-items: center;
   font-size: 1.125rem;
   margin-bottom: 0.5rem;
+}
+
+#suggestions {
+  min-height: 125px;
+  min-width: 500px;
+  padding: 0.5 rem;
+  resize: vertical;
 }
