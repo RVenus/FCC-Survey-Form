@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight:300;
+}
+
+.container {
+    // display: grid;
+    align-content: center;
+    overflow: hidden;
+    max-width: 720px;
+    margin: 3.125rem auto 0 auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.header {
+    padding: 0 0.5rem;
+}
+
+#survey-form {
+    
+  text-align: center;
+}
+
+.form-group {
+    
+    margin: 0.25rem;
+    padding: 0.2rem;
+    text-align: center;
+    align-items: center;
+}
+
+.form-control {
+    
+    text-align: center;
+    align-content: center;
+}
+
+.input-radio {
+    align-content: center;
+    text-align: center;
+}
+
+.input-checkbox {
+    
+    align-items: center;
+    text-align: center;
+    
+}
+
+label {
+    display: flex;
+    align-items: center;
+    font-size: 1.125rem;
+    margin-bottom: 0.5rem;
+}
+
+#suggestions {
+    // text-align: left;
+    min-height: 125px;
+    min-width: 500px;
+    padding: 0.5 rem;
+    resize: vertical;
+}
