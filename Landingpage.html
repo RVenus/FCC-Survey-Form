@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylepage.css">
     <title>FCC: Survey Form</title>
 </head>
 <body>
@@ -15,15 +16,15 @@
 
         <form id="survey-form">
             <div class="form-group">
-                <label id="name-label" for="name"></label>
+                <label id="name-label" for="name">Name</label>
                 <input id="name" class="form-control" type="text" name="name" placeholder="Enter your name" required="">
             </div>
             <div class="form-group">
-                <label id="email-label" for="email"></label>
+                <label id="email-label" for="email"> Email</label>
                 <input id="email" class="form-control" type="email" name="email" placeholder="Enter your Email" required="">
             </div>
             <div class="form-group">
-                <label id="number-label" for="number"></label>
+                <label id="number-label" for="number">Age(optional)</label>
                 <input id="number" class="form-control" type="number" name="age" min="10" max="99" placeholder="Age">
             </div>
             <div class="form-group">
@@ -83,7 +84,7 @@
                     Challenges
                 </label>
                 <label>
-                    <input class="input=checkbox" name="improvements" value="open-source-community" type="checkbox">
+                    <input class="input-checkbox" name="improvements" value="open-source-community" type="checkbox">
                     Open Source Community
                 </label>
                 <label>
@@ -102,12 +103,12 @@
             <div class="form-group">
                 <label for="suggestions"> Any comments or suggestions?</label>
 
-                <textarea id="suggestions" name="suggestions" rows="4" cols="60">
+                <textarea id="suggestions" type="text" placeholder="Enter your comment here..." name="suggestions">
                     Enter your comment here...
                 </textarea>
             </div>
             <div class="form-group">
-                <input type="submit" value="Submit">
+                <button id="submit" class="submit-button" type="submit"> Submit </button>
             </div>
         </form>
     </div>
